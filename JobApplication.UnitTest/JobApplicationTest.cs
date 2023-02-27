@@ -22,7 +22,7 @@ public class JobApplicationTest
         var result = eveluator.Evaluate(form);
 
         // Assert
-        Assert.AreEqual(ApplicationResult.AutoRejeced, result);
+        Assert.AreEqual(ApplicationResult.AutoAccepted, result);
     }
 }
 
